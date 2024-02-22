@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - npm install
+  build_fails:
+    commands: 
+      - npm run build
+  post_build:
+    commands:
+      - aws s3 cp --recursive ./build s3 arn:aws:s3:::favorite-things-react
+      - aws 
