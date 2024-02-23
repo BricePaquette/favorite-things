@@ -1,0 +1,16 @@
+
+
+nav.navbar {
+    background-color: #3C2A21 !important;
+    
+}
+
+nav.navbar a.navbar-brand, a.nav-link, span.navbar-toggler-icon{
+    color: #E5E5CB !important;
+    
+}
+nav.navbar a.navbar-brand{
+    color: #E5E5CB !important;
+    
+}
+

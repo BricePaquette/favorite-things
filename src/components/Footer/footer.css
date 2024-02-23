@@ -1,0 +1,14 @@
+/*
+ #375037 forest green
+ #C3B091 khaki
+*/
+
+footer {
+    background-color: #1A120B;
+    color: #E5E5CB;
+    padding: 1rem;
+} 
+
+footer div.row {
+    background-color: #1A120B;
+  }
